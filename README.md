@@ -19,12 +19,12 @@ This repository contains my weekly assignments for ATU module 4122 -- PROGRAMMIN
 
 ## About the Dataset
 
-First published in 1936, the Iris dataset is one of the earliest datasets used in the literature on classification methods.  Originally published by the UCI Machine Learning Repository, the dataset consists of 150 rows, each row representing an Iris plant. There are three major subdivisons, each representing a different species of Iris with the 150 rows being equally divided amoung these three types (for a total of 150 entries). These three species are:
+First published in 1936, the Iris dataset is one of the earliest datasets used in the literature on classification methods.  Originally published by the UCI Machine Learning Repository, the dataset consists of 150 rows, each row representing an Iris plant. There are three major subdivisons, each representing a different species of Iris with the 150 rows being equally divided amoung these three types. These three species are:
  - Iris setosa: Characterized by its relatively small size, with distinctive characteristics in sepal and petal dimensions.
  - Iris versicolor: Moderate in size, with features falling between those of Iris setosa and Iris virginica.
  - Iris virginica: Generally larger in size, with notable differences in sepal and petal dimensions compared to the other two species.
 
-The dataset includes further data points related to each flower. These include:
+The dataset includes further information on features related to each species flower. The are four key variables for each flower, which include:
  - Sepal Length: The length of the iris flower's sepals 
  - Sepal Width: The width of the iris flower's sepals.
  - Petal Length: The length of the iris flower's petals.
@@ -45,7 +45,8 @@ To understand how the workbook has developped to date, please see below a timeli
 - 21/03/2025 - Created ReadMe and Gitignore file. Gitignore file generated using the template at Python gitignore template at https://github.com/github/gitignore/blob/main/Python.gitignore, the Windows gitignore template at https://github.com/github/gitignore/blob/main/Global/Windows.gitignore, the MacOS gitignore template at https://github.com/github/gitignore/blob/main/Global/macOS.gitignore and the Linux gitignore template at https://github.com/github/gitignore/blob/main/Global/Linux.gitignore.
 - 22/03/2025 - Created analysis.py and Iris.ipynb. Loaded in the Iris dataset, using the instructions at: https://archive.ics.uci.edu/dataset/53/iris and https://github.com/uci-ml-repo/ucimlrepo.
 - 23/03/2025 - Saved a copy of the Iris dataset into the directory. External materials referenced: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html (how to save a dataset as a csv dataframe).
-- 28/03/2025 - Added a desciption of the dataset to the ReadMe.
+- 28/03/2025 - Added a desciption of the dataset to the ReadMe. External materials referenced: https://www.geeksforgeeks.org/iris-dataset/, https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/, https://en.wikipedia.org/wiki/Iris_flower_data_set, https://archive.ics.uci.edu/dataset/53/iris, https://gist.github.com/curran/a08a1080b88344b0c8a7 (all links referenced are introductions to the dataset).
+- 29/03/2025 - Plotted histograms of each of the main Iris variables. Created "iris_variables.png" as part of this process. External materials referenced: https://www.geeksforgeeks.org/plotting-histogram-in-python-using-matplotlib/ (plotting histograms in Python).
 
 ## Getting help
 
