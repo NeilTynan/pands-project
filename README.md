@@ -47,6 +47,7 @@ To understand how the workbook has developped to date, please see below a timeli
 - 23/03/2025 - Saved a copy of the Iris dataset into the directory. External materials referenced: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html (how to save a dataset as a csv dataframe).
 - 28/03/2025 - Added a desciption of the dataset to the ReadMe. External materials referenced: https://www.geeksforgeeks.org/iris-dataset/, https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/, https://en.wikipedia.org/wiki/Iris_flower_data_set, https://archive.ics.uci.edu/dataset/53/iris, https://gist.github.com/curran/a08a1080b88344b0c8a7 (all links referenced are introductions to the dataset).
 - 29/03/2025 - Plotted histograms of each of the main Iris variables. Created "iris_variables.png" as part of this process. External materials referenced: https://www.geeksforgeeks.org/plotting-histogram-in-python-using-matplotlib/ (plotting histograms in Python).
+- 31/03/2025 - Started work on scatter plots. Had to halt early due to issues with accessing the server with the Iris dataset. External materials referenced: https://www.statology.org/pandas-scatter-plot-multiple-columns/ (creating a scatter plot with multiple variables on it).
 
 ## Getting help
 
