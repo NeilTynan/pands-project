@@ -50,6 +50,7 @@ To understand how the workbook has developped to date, please see below a timeli
 - 31/03/2025 - Started work on scatter plots. Had to halt early due to issues with accessing the server with the Iris dataset. External materials referenced: https://www.statology.org/pandas-scatter-plot-multiple-columns/ (creating a scatter plot with multiple variables on it).
 - 04/04/2025 - Swapped to using seaborn for the scatter charts to better differencitate the types of Iris in the data. External material referenced: https://www.geeksforgeeks.org/scatterplot-using-seaborn-in-python/ (scatterplots in seaborn).
 - 06/04/2025 - Fixed "data.csv" so that the Class column no longer includes the word Iris. Added in a heatmap showing how all the various External materials referenced: https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/ (how to generate a heatmap of the Iris dataset).
+- 07/04/2025 - Added text summary of each variable ("iris_variables_description.txt"). External material referenced: https://www.geeksforgeeks.org/python-pandas-dataframe-transpose/ (how to flip a datasets rows and columns).
 
 ## Getting help
 
