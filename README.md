@@ -52,6 +52,7 @@ To understand how the workbook has developped to date, please see below a timeli
 - 06/04/2025 - Fixed "data.csv" so that the Class column no longer includes the word Iris. Added in a heatmap showing how all the various External materials referenced: https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/ (how to generate a heatmap of the Iris dataset).
 - 07/04/2025 - Added text summary of each variable ("iris_variables_description.txt"). External material referenced: https://www.geeksforgeeks.org/python-pandas-dataframe-transpose/ (how to flip a datasets rows and columns).
 - 08/04/2025 - Added new histograms which break down analysis by species. External materials referenced: https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/ (generating an advanced histogram of the Iris dataset), https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751 (adjusting histplot to look like distplot). Copilot referenced, prompt "how to group multiple histograms into one png". Also, adjusted dataframe to improve its readability in the graphs (adding "(cm)" to variable headers and changing "class" to "species").
+- 09/04/2025 - Added in header image, tidied up section hears and improved the readability of the code in some sections.
 
 ## Getting help
 
