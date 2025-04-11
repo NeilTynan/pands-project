@@ -16,22 +16,6 @@ This repository contains my weekly assignments for ATU module 4122 -- PROGRAMMIN
     - Outputs a scatter plot of each pair of variables.
     - Performs any other analysis you think is appropriate.
 
-
-## About the Dataset
-
-First published in 1936, the Iris dataset is one of the earliest datasets used in the literature on classification methods.  Originally published by the UCI Machine Learning Repository, the dataset consists of 150 rows, each row representing an Iris plant. There are three major subdivisons, each representing a different species of Iris with the 150 rows being equally divided amoung these three types. These three species are:
- - Iris setosa: Characterized by its relatively small size, with distinctive characteristics in sepal and petal dimensions.
- - Iris versicolor: Moderate in size, with features falling between those of Iris setosa and Iris virginica.
- - Iris virginica: Generally larger in size, with notable differences in sepal and petal dimensions compared to the other two species.
-
-The dataset includes further information on features related to each species flower. The are four key variables for each flower, which include:
- - Sepal Length: The length of the iris flower's sepals 
- - Sepal Width: The width of the iris flower's sepals.
- - Petal Length: The length of the iris flower's petals.
- - Petal Width: The width of the iris flower's petals.
-
- This dataset is often used for testing machine learning algorathims due to its simplicity, versatility and ubiquitousness. For these reasons, the dataset remains a common point of reference for many people starting to look into statistics, programming and data science.
-
 ## Use of this Project
 
 This repository may be of some interest to other students engaged in similar projects around programming and scripting. Feel free to use whatever you like from it (though if another party has been referenced, I would ask that you likewise cite them).
