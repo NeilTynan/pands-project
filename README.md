@@ -6,7 +6,7 @@ This README has been written with [GitHub's documentation on README's](https://d
 
 ## About this Project
 
-This repository contains my weekly assignments for ATU module 4122 -- PROGRAMMING AND SCRIPTING. It contains the project work for the course, which is focused on the Iris dataset. As part of this, this project intends to:
+This repository contains my weekly assignments for ATU module 4122 -- PROGRAMMING AND SCRIPTING. It contains the project work for the course, which is focused on the Iris dataset. As part of this, this project intends to develop some python files which can:
 
 1. Provide an outline of the Iris dataset and the data it contains.
 2. Download a copy of the data set into the repository.
@@ -15,6 +15,8 @@ This repository contains my weekly assignments for ATU module 4122 -- PROGRAMMIN
     - Saves a histogram of each variable to png files.
     - Outputs a scatter plot of each pair of variables.
     - Performs any other analysis you think is appropriate.
+
+Point 2 and the first three parts of of point 3 will be handelled by "analysis.py". The actual discussion of the dataset, and the supplementary analysis, will take place in iris.ipynb.
 
 ## Use of this Project
 
@@ -38,6 +40,8 @@ To understand how the workbook has developped to date, please see below a timeli
 - 08/04/2025 - Added new histograms which break down analysis by species. External materials referenced: https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/ (generating an advanced histogram of the Iris dataset), https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751 (adjusting histplot to look like distplot). Copilot referenced, prompt "how to group multiple histograms into one png". Also, adjusted dataframe to improve its readability in the graphs (adding "(cm)" to variable headers and changing "class" to "species").
 - 09/04/2025 - Added in header image, tidied up section hears and improved the readability of the code in some sections.
 - 10/04/2025 - Added in some text to improve the readability of the "iris.ipynb" and tidied up some of the graphs a bit. Copilot referenced, prompt "how to add in some white sapce between grouped charts in a png which have been assembled using python".
+- 11/04/2025 - More readability edits to the code and text.
+- 12/04/2025 - Populated "analysis.py" with code. Moved the printing functions from "iris.ipynb" to here to prevent any confusion around what's being printed out. Set up a new folder "graphs" and added code to "analysis.py" so that the graphs would print to here. External materials referenced: https://stackoverflow.com/questions/11373610/save-matplotlib-file-to-a-directory (how to save a graph to a specific directory).
 
 ## Getting help
 
