@@ -2,15 +2,16 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from ucimlrepo import fetch_ucirepo
+from sklearn import datasets
 
 
 # Fetch the dataset
-iris = fetch_ucirepo(id=53)
-X = iris.data.features
-y = iris.data.targets 
-z = iris.data.original
-df = pd.DataFrame(z)
+iris = datasets.load_iris()
+df=pd.DataFrame(iris.data)
+df['class']=iris.target
+df.columns=['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)', 'species']
+df['species'] = df['species'].replace({0: 'Setosa', 1:'Versicolor', 2: 'Virginica'}, regex=True)
+df.dropna(how="all", inplace=True) 
 
 # Print dataset to repository
 df.to_csv("/workspaces/pands-project/data.csv")

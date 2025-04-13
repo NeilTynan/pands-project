@@ -42,6 +42,7 @@ To understand how the workbook has developped to date, please see below a timeli
 - 10/04/2025 - Added in some text to improve the readability of the "iris.ipynb" and tidied up some of the graphs a bit. Copilot referenced, prompt "how to add in some white sapce between grouped charts in a png which have been assembled using python".
 - 11/04/2025 - More readability edits to the code and text.
 - 12/04/2025 - Populated "analysis.py" with code. Moved the printing functions from "iris.ipynb" to here to prevent any confusion around what's being printed out. Set up a new folder "graphs" and added code to "analysis.py" so that the graphs would print to here. External materials referenced: https://stackoverflow.com/questions/11373610/save-matplotlib-file-to-a-directory (how to save a graph to a specific directory).
+- 13/04/2025 - Changed where the dataset was being sourced from as the original library kept crashing. Added another graph to the scatterplot section highlighting the Setosa outliers. External material referenced: https://matplotlib.org/3.1.1/gallery/shapes_and_collections/artist_reference.html#sphx-glr-gallery-shapes-and-collections-artist-reference-py (adding shapes to graphs). Added in more text in iris.ipynb to improve readbility.
 
 ## Getting help
 
