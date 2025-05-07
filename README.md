@@ -1,12 +1,10 @@
-# pands-project
-
-# Programming and Scripting
+# Programming and Scripting Final Project - Iris Analysis
 
 This README has been written with [GitHub's documentation on README's](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind.
 
 ## About this Project
 
-This repository contains my weekly assignments for ATU module 4122 -- PROGRAMMING AND SCRIPTING. It contains the project work for the course, which is focused on the Iris dataset. As part of this, this project intends to develop some python files which can:
+This repository contains my project work for ATU module 4122 -- PROGRAMMING AND SCRIPTING, which is focused on the Iris dataset. As part of this, this project intends to develop some python files which can:
 
 1. Provide an outline of the Iris dataset and the data it contains.
 2. Download a copy of the data set into the repository.
@@ -16,7 +14,7 @@ This repository contains my weekly assignments for ATU module 4122 -- PROGRAMMIN
     - Outputs a scatter plot of each pair of variables.
     - Performs any other analysis you think is appropriate.
 
-Point 2 and the first three parts of of point 3 will be handelled by "analysis.py". The actual discussion of the dataset, and the supplementary analysis, will take place in iris.ipynb.
+Objectives 2 and 3, with the exception of the final part of point 3, are handelled by "analysis.py". The actual discussion of the dataset (point 1), and the supplementary analysis (the final part of point 3), takes place in iris.ipynb.
 
 ## Use of this Project
 
@@ -35,14 +33,15 @@ To understand how the workbook has developped to date, please see below a timeli
 - 29/03/2025 - Plotted histograms of each of the main Iris variables. Created "iris_variables.png" as part of this process. External materials referenced: https://www.geeksforgeeks.org/plotting-histogram-in-python-using-matplotlib/ (plotting histograms in Python).
 - 31/03/2025 - Started work on scatter plots. Had to halt early due to issues with accessing the server with the Iris dataset. External materials referenced: https://www.statology.org/pandas-scatter-plot-multiple-columns/ (creating a scatter plot with multiple variables on it).
 - 04/04/2025 - Swapped to using seaborn for the scatter charts to better differencitate the types of Iris in the data. External material referenced: https://www.geeksforgeeks.org/scatterplot-using-seaborn-in-python/ (scatterplots in seaborn).
-- 06/04/2025 - Fixed "data.csv" so that the Class column no longer includes the word Iris. Added in a heatmap showing how all the various External materials referenced: https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/ (how to generate a heatmap of the Iris dataset).
+- 06/04/2025 - Fixed "data.csv" so that the Class column no longer includes the word "Iris". Added in a heatmap showing how all the various External materials referenced: https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/ (how to generate a heatmap of the Iris dataset).
 - 07/04/2025 - Added text summary of each variable ("iris_variables_description.txt"). External material referenced: https://www.geeksforgeeks.org/python-pandas-dataframe-transpose/ (how to flip a datasets rows and columns).
 - 08/04/2025 - Added new histograms which break down analysis by species. External materials referenced: https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/ (generating an advanced histogram of the Iris dataset), https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751 (adjusting histplot to look like distplot). Copilot referenced, prompt "how to group multiple histograms into one png". Also, adjusted dataframe to improve its readability in the graphs (adding "(cm)" to variable headers and changing "class" to "species").
-- 09/04/2025 - Added in header image, tidied up section hears and improved the readability of the code in some sections.
+- 09/04/2025 - Added in header image, tidied up section headers and improved the readability of the code in some sections.
 - 10/04/2025 - Added in some text to improve the readability of the "iris.ipynb" and tidied up some of the graphs a bit. Copilot referenced, prompt "how to add in some white sapce between grouped charts in a png which have been assembled using python".
 - 11/04/2025 - More readability edits to the code and text.
-- 12/04/2025 - Populated "analysis.py" with code. Moved the printing functions from "iris.ipynb" to here to prevent any confusion around what's being printed out. Set up a new folder "graphs" and added code to "analysis.py" so that the graphs would print to here. External materials referenced: https://stackoverflow.com/questions/11373610/save-matplotlib-file-to-a-directory (how to save a graph to a specific directory).
+- 12/04/2025 - Populated "analysis.py" with code. Moved the printing functions from "iris.ipynb" to here in order to prevent any confusion around what's being printed out. Set up a new folder "graphs" and added code to "analysis.py" so that the graphs would print to here. External materials referenced: https://stackoverflow.com/questions/11373610/save-matplotlib-file-to-a-directory (how to save a graph to a specific directory).
 - 13/04/2025 - Changed where the dataset was being sourced from as the original library kept crashing. Added another graph to the scatterplot section highlighting the Setosa outliers. External material referenced: https://matplotlib.org/3.1.1/gallery/shapes_and_collections/artist_reference.html#sphx-glr-gallery-shapes-and-collections-artist-reference-py (adding shapes to graphs). Added in more text in iris.ipynb to improve readbility.
+- 07/05/2025 - Preformed some final checks and readability edits in advance of the project deadline next week.
 
 ## Getting help
 
